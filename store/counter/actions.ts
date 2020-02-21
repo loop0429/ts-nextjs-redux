@@ -13,3 +13,9 @@ export function setCount(amount: number) {
     payload: { amount }
   }
 }
+export function setIwt(name: string) {
+  return {
+    type: types.setIwt,
+    payload: { name }
+  }
+}
